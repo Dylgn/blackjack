@@ -1,0 +1,87 @@
+/*
+Style Sheet by Dylan Grinton
+10/12/2019
+BHS Class of 2021
+*/
+
+.border {
+    -fx-border-color: #000000;
+}
+
+.round-button {
+    -fx-background-insets: 2;
+    -fx-background-radius: 10;
+}
+
+.round-button-border {
+    -fx-background-insets: 2;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #000000;
+    -fx-border-insets: 2;
+}
+
+.smooth-button {
+    -fx-background-insets: 2;
+    -fx-background-radius: 5;
+}
+
+.smooth-button-border {
+    -fx-background-insets: 2;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-color: #000000;
+    -fx-border-insets: 2;
+}
+
+.object-dropshadow {
+    -fx-effect: dropshadow(one-pass-box, #000000, 13.0, 0.0 , 0.0 , 0.0);
+}
+
+.object-dropshadow-big {
+    -fx-effect: dropshadow(three-pass-box, #000000, 30.0, 0.0 , 0.0 , 0.0);
+}
+
+.object-innershadow {
+    -fx-effect: innershadow(two-pass-box, #000000, 12.0, 0.0, 0.0, 0.0);
+}
+
+.object-innershadow-big {
+    -fx-effect: innershadow(two-pass-box, #000000, 30.0, 0.0, 0.0, 0.0);
+}
+
+.gradient-black {
+    -fx-background-color: linear-gradient(#ffffff, #000000);
+}
+
+.gradient-black-double {
+    -fx-background-color: linear-gradient(#8c8c8c, #000000);
+}
+
+.gradient-gray {
+    -fx-background-color: linear-gradient(#ffffff, #8c8c8c);
+}
+
+.gradient-red {
+    -fx-background-color: linear-gradient(#ffffff, #ff0000);
+}
+
+.gradient-red-double {
+    -fx-background-color: linear-gradient(#ff0000, #7f0000);
+}
+
+.gradient-blue {
+    -fx-background-color: linear-gradient(#ffffff, #00c1ff);
+}
+
+.gradient-blue-double {
+    -fx-background-color: linear-gradient(#00c1ff, #1c03ff);
+}
+
+.gradient-green {
+    -fx-background-color: linear-gradient(#ffffff, #00ff04);
+}
+
+.gradient-green-double {
+    -fx-background-color: linear-gradient(#00ff04, #037200);
+}
